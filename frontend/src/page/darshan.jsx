@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import Gifimage from "../assets/darshan/mataranigif.gif";
 import Darshanimg from "../assets/darshan/mataranidarshan.webp";
 import Swal from "sweetalert2";
@@ -13,7 +14,7 @@ function Darshan() {
           🌺 Aapke ghar mein <b>khushhali</b> aur <b>shanti</b> bani rahe 🌺
         </div>
       `,
-      imageUrl: "../assets/darshan/mataranidarshan.webp",
+      imageUrl: Darshanimg,
       imageWidth: 150,
       imageHeight: 150,
       imageAlt: "Maa Durga",
@@ -69,7 +70,7 @@ function Darshan() {
 
         {/* middle hero section */}
         <div className="grid place-content-center gap-6">
-          <div className="w-60 h-60 md:w-[550px] md:h-[550px] rounded-full shadow-2xl flex justify-center items-center">
+          <div className="w-60 h-60 md:w-[550px] md:h-[550px] bg-red-300 rounded-full shadow-2xl flex justify-center items-center">
             <img
               src={Darshanimg}
               alt="maapic"
