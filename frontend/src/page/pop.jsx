@@ -9,7 +9,9 @@ function Pop (){
                 title: "🚩🚩 Happy Navratri 🚩🚩",
                 text: "Wishing You And Your Family A Very Happy Navratri\n\n– From Raushan Raj",
                 icon: "info",
-                timer: 5000
+                timer: 5000,
+                timerProgressBar : true,
+                background : "#f1f1f1",
             });
         }, 3000);
     }, []);

@@ -41,6 +41,8 @@ function Darshan() {
       text: "Aapko ab Home Page par le jaya ja raha hai...",
       icon: "info",
       timer: 3000,
+      timerProgressBar : true,
+      background : "#f1f1f1",
       showConfirmButton: false,
     }).then(() => {
       window.location.href = "/";
